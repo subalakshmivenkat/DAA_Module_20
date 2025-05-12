@@ -3,11 +3,11 @@
 ## AIM:
 To implement the Rat in a Maze problem using backtracking and find all possible paths from the start to the destination in a given maze.
 ## Algorithm
-1.Start from the top-left cell of the maze.
-2.Move forward only if the current cell is within bounds and not blocked (i.e., value is 1).
-3.Mark the current cell in the solution path.
-4.Recursively try to move right or down to reach the destination.
-5.If no move leads to the destination, backtrack and unmark the cell.
+1. Start from the top-left cell of the maze.
+2. Move forward only if the current cell is within bounds and not blocked (i.e., value is 1).
+3. Mark the current cell in the solution path.
+4. Recursively try to move right or down to reach the destination.
+5. If no move leads to the destination, backtrack and unmark the cell.
 ## Program:
 ```
 /*
